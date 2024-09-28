@@ -1,0 +1,133 @@
+body {
+  font-family: "Optima";
+  background-color: #f5f5f5;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(фон.JPG);
+  color: #fff;
+  font-family: sans-serif;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.header {
+  margin: 40px 0;
+}
+
+.header__avatar {
+  border-radius: 50%;
+}
+
+.header__title {
+  margin: 30px 0 10px 0;
+  font-size: 32px;
+  line-height: 1.2;
+  font-family: "Bookman Old Style";
+  text-shadow: #d4bfd1 1px 0 10px;
+}
+
+.header__subtitle {
+  color: #8f8f8f;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+  font-family: "Bookman Old Style"
+}
+
+.links {
+  width: 320px;
+  margin-bottom: 40px;
+
+}
+
+.links__header {
+  font-family: "Times New Roman";
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0 0 15px 0;
+}
+
+.links__container {
+  list-style-type: none;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 20px 10px;
+  gap: 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.links__link,
+.links__title {
+  font-size: 14px;
+  font-size: 1.4;
+  color: #0a0a0a;
+}
+
+.links__link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 0px 10px;
+  gap: 30px;
+  border-bottom: 1px solid #dadada;
+  width: 280px;
+}
+
+.links__link:last-child {
+  border-buttom: none;
+}
+
+.linsk__link,
+.links__link:visited {
+  text-decoration: none;
+  color: #cb782f;
+}
+
+.links__title {
+  margin: 0;
+  min-width: 100px;
+}
+
+footer {
+  margin: 0 0 40px 0;
+}
+
+
+.button-link {
+  box-sizing: border-box;
+  margin: 0 0 40px 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 320px;
+  background: #dab9cc;
+  border-radius: 20px;
+  font-family: "Times New Roman";
+  text-transform: uppercase;
+  
+   
+
+  font-size: 14px;
+  line-height: 1.4;
+
+  color: #0a0a0a;
+  text-decoration: none;
+
+
+}
+ 
+ 
